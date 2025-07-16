@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #ffcc33;
-  border-radius: 12px;
+  border-radius: 2px;
   padding: 10px 14px;
   font-weight: 600;
   box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
@@ -43,7 +43,7 @@ i {
   color: #ffcc33;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1020px) {
   #nav_list,
   #navbar .btn-default {
     display: none;
@@ -104,4 +104,26 @@ header {
 .nav-item.active a {
   color: #ffffff;
   border-bottom: 3px solid #ffcc33;
+}
+
+.hero {
+  padding: 5px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.hero h2 {
+  
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffcc33;
+  font-size: 50px;
+}
+
+section.hero h1{
+  font-family: "Staatliches", sans-serif;
+  color: #ffcc33;
+  font-size: 80px;
 }
