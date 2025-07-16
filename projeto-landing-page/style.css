@@ -6,11 +6,12 @@
 }
 
 body {
-  background-image: url(../projeto-landing-page/images/background-image.jpeg');
+  background-image: url(images/background-image.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #4f4040;
 }
 
 .btn-default {
